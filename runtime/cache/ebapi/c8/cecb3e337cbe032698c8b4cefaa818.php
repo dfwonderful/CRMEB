@@ -1,0 +1,4 @@
+<?php
+//000000001400
+ exit();?>
+a:3:{i:0;a:5:{s:2:"id";i:124;s:3:"pic";s:74:"http://datong.crmeb.net/public/uploads/attach/2019/03/28/5c9ccf7e9f4d0.jpg";s:5:"title";s:15:"一起来拼团";s:4:"info";s:12:"优惠多多";s:4:"link";s:39:"/pages/activity/goods_combination/index";}i:1;a:5:{s:2:"id";i:125;s:3:"pic";s:74:"http://datong.crmeb.net/public/uploads/attach/2019/03/28/5c9ccf7e97660.jpg";s:5:"title";s:12:"秒杀专区";s:4:"info";s:27:"新能源汽车火热销售";s:4:"link";s:35:"/pages/activity/goods_seckill/index";}i:2;a:5:{s:2:"id";i:126;s:3:"pic";s:74:"http://datong.crmeb.net/public/uploads/attach/2019/03/28/5c9ccfc86a6c1.jpg";s:5:"title";s:12:"砍价活动";s:4:"info";s:24:"呼朋唤友来砍价~~~";s:4:"link";s:35:"/pages/activity/goods_bargain/index";}}

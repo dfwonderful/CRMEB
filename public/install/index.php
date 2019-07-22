@@ -147,7 +147,8 @@ switch ($step) {
         if ($_GET['testdbpwd']) {
             $dbHost = $_POST['dbHost'];
             $conn = @mysqli_connect($dbHost, $_POST['dbUser'], $_POST['dbPwd'],NULL,$_POST['dbport']);			
-            if (mysqli_connect_errno($conn)){				
+	    if (mysqli_connect_errno($conn)){			
+	    		//	printf("Connect failed: %s\n", mysqli_connect_error());	    
 				die(json_encode(0));                
             } else {
 				$result = mysqli_query($conn,"SELECT @@global.sql_mode");				

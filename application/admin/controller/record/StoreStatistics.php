@@ -38,6 +38,7 @@ class StoreStatistics extends AuthController
             urlencode('余额支付')=>StatisticsModel::getTimeWhere($where,StatisticsModel::statusByWhere('yue'))->count(),
             urlencode('线下支付')=>StatisticsModel::getTimeWhere($where,StatisticsModel::statusByWhere('offline'))->count(),
         ];
+        $orderPrice = [];
         $Statistic = [
             ['name'=>'营业额','type'=>'line','data'=>[]],
             ['name'=>'支出','type'=>'line','data'=>[]],

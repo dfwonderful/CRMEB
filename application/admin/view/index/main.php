@@ -273,14 +273,14 @@
                                 default:
                                     break;
                             }
-                            that.cyclecount = res.data.data.cycle.count.data;
-                            that.cyclecount_percent = res.data.data.cycle.count.percent;
-                            that.cyclecount_is_plus = res.data.data.cycle.count.is_plus;
-                            that.cycleprice = res.data.data.cycle.price.data;
-                            that.cycleprice_percent = res.data.data.cycle.price.percent;
-                            that.cycleprice_is_plus = res.data.data.cycle.price.is_plus;
-                            that.pre_cyclecount = res.data.data.pre_cycle.count.data;
-                            that.pre_cycleprice = res.data.data.pre_cycle.price.data;
+                            that.cyclecount = res.data.data.length !=0 ? res.data.data.cycle.count.data : 0;
+                            that.cyclecount_percent = res.data.data.length !=0 ? res.data.data.cycle.count.percent : 0;
+                            that.cyclecount_is_plus = res.data.data.length !=0 ? res.data.data.cycle.count.is_plus : 0;
+                            that.cycleprice = res.data.data.length !=0 ? res.data.data.cycle.price.data : 0;
+                            that.cycleprice_percent = res.data.data.length !=0 ? res.data.data.cycle.price.percent : 0;
+                            that.cycleprice_is_plus = res.data.data.length !=0 ? res.data.data.cycle.price.is_plus : 0;
+                            that.pre_cyclecount = res.data.data.length !=0 ? res.data.data.pre_cycle.count.data : 0;
+                            that.pre_cycleprice = res.data.data.length !=0 ? res.data.data.pre_cycle.price.data : 0;
                     });
                 },
                 orderchartsetoption:function(data){
@@ -374,7 +374,7 @@
                             }
                         },
                         legend: {
-                            data:data.legend
+                            data: data.length !=0 ? data.legend : 0
                         },
                         grid: {
                             x: 70,
@@ -385,7 +385,7 @@
                         xAxis: [
                             {
                                 type: 'category',
-                                data: data.xAxis,
+                                data: data.length !=0 ? data.xAxis : 0,
                                 axisPointer: {
                                     type: 'shadow'
                                 }
@@ -396,7 +396,7 @@
                                 type: 'value',
                                 name: '人数',
                                 min: 0,
-                                max: data.yAxis.maxnum,
+                                max: data.length !=0 ? data.yAxis.maxnum : 0,
                                 interval: 5,
                                 axisLabel: {
                                     formatter: '{value} 人'

@@ -1,0 +1,5 @@
+
+---------------------------------------------------------------
+[ 2019-07-19T17:26:38+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/record.record/getUserChartList?status=&is_promoter=&data=
+[ error ] [8]compact(): Undefined variable: fenbu_data
+[ error ] compact(): Undefined variable: fenbu_data

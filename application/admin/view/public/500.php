@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -9,7 +9,7 @@
 
     <link rel="shortcut icon" href="favicon.ico">
     <link href="{__FRAME_PATH}css/bootstrap.min.css" rel="stylesheet">
-    <link href="{__FRAME_PATH}css/font-awesome.css?v=4.4.0" rel="stylesheet">
+    <link href="{__FRAME_PATH}css/font-awesome.min.css?v=4.4.0" rel="stylesheet">
     <link href="{__FRAME_PATH}css/style.min.css?v=4.1.0" rel="stylesheet">
 
 </head>

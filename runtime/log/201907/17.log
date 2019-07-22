@@ -1,0 +1,3288 @@
+---------------------------------------------------------------
+[ 2019-07-17T10:37:37+08:00 ] 210.87.167.13 GET 129.28.123.113/
+[运行时间：0.215472s] [吞吐率：4.64req/s] [内存消耗：473.69kb] [文件加载：55]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T10:37:37+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/login/index.html
+[运行时间：0.019899s] [吞吐率：50.25req/s] [内存消耗：249.32kb] [文件加载：51]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /opt/Golden/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/login/index.php [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T10:37:38+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/login/captcha.html
+[运行时间：0.028190s] [吞吐率：35.47req/s] [内存消耗：237.32kb] [文件加载：48]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'captcha',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/login/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'image/webp,*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->captcha[ /opt/Golden/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T10:37:48+08:00 ] 210.87.167.13 POST 129.28.123.113/admin/login/verify.html
+[运行时间：0.058957s] [吞吐率：16.96req/s] [内存消耗：560.47kb] [文件加载：65]
+[ error ] [2002]SQLSTATE[HY000] [2002] No such file or directory[/opt/Golden/thinkphp/library/think/db/Connection.php:295]
+[ error ] SQLSTATE[HY000] [2002] No such file or directory
+---------------------------------------------------------------
+[ 2019-07-17T10:37:48+08:00 ] 210.87.167.13 GET 129.28.123.113/public/system/frame/css/font-awesome.css?v=4.4.0
+[运行时间：0.016491s] [吞吐率：60.64req/s] [内存消耗：157.50kb] [文件加载：40]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'system',
+    2 => 'frame',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/login/verify.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.4.0',
+  'css' => 'font-awesome.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T10:37:49+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/login/favicon.ico
+[运行时间：0.002943s] [吞吐率：339.78req/s] [内存消耗：265.25kb] [文件加载：48]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'favicon.ico',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'image/webp,*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] basic\SystemBasic->_empty[ /opt/Golden/extend/basic/SystemBasic.php ]
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/public/404.php [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T10:41:42+08:00 ] 42.236.10.125 GET 129.28.123.113/
+[运行时间：0.002305s] [吞吐率：433.83req/s] [内存消耗：276.14kb] [文件加载：55]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.1.0; zh-CN; EML-AL00 Build/HUAWEIEML-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 baidu.sogo.uc.UCBrowser/11.9.4.974 UWS/2.13.1.48 Mobile Safari/537.36 AliApp(DingTalk/4.5.11) com.alibaba.android.rimet/10487439 Channel/227200 language/zh-CN',
+  'connection' => 'keep-alive',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T10:41:43+08:00 ] 42.236.10.125 GET 129.28.123.113/
+[运行时间：0.004835s] [吞吐率：206.83req/s] [内存消耗：277.17kb] [文件加载：55]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=a09msbaql1fqn4itqri2iuhbe0',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.baidu.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.1.0; zh-CN; EML-AL00 Build/HUAWEIEML-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 baidu.sogo.uc.UCBrowser/11.9.4.974 UWS/2.13.1.48 Mobile Safari/537.36 AliApp(DingTalk/4.5.11) com.alibaba.android.rimet/10487439 Channel/227200 language/zh-CN',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T10:41:45+08:00 ] 42.236.10.125 GET 129.28.123.113/admin/login/index.html
+[运行时间：0.001689s] [吞吐率：592.08req/s] [内存消耗：237.34kb] [文件加载：49]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=a09msbaql1fqn4itqri2iuhbe0',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.baidu.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.1.0; zh-CN; EML-AL00 Build/HUAWEIEML-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 baidu.sogo.uc.UCBrowser/11.9.4.974 UWS/2.13.1.48 Mobile Safari/537.36 AliApp(DingTalk/4.5.11) com.alibaba.android.rimet/10487439 Channel/227200 language/zh-CN',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /opt/Golden/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/login/index.php [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T10:41:48+08:00 ] 42.236.10.106 GET 129.28.123.113/admin/login/captcha.html
+[运行时间：0.003807s] [吞吐率：262.69req/s] [内存消耗：237.27kb] [文件加载：48]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'captcha',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=a09msbaql1fqn4itqri2iuhbe0',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://129.28.123.113/admin/login/index.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.1.0; zh-CN; EML-AL00 Build/HUAWEIEML-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 baidu.sogo.uc.UCBrowser/11.9.4.974 UWS/2.13.1.48 Mobile Safari/537.36 AliApp(DingTalk/4.5.11) com.alibaba.android.rimet/10487439 Channel/227200 language/zh-CN',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->captcha[ /opt/Golden/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T10:55:08+08:00 ] 210.87.167.13 POST 129.28.123.113/admin/login/verify.html
+[运行时间：0.003772s] [吞吐率：265.11req/s] [内存消耗：272.74kb] [文件加载：51]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'content-length' => '35',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://129.28.123.113/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+)
+[ info ] [ PARAM ] array (
+  'account' => 'admin',
+  'pwd' => 'admin',
+  'verify' => '8891',
+)
+[ info ] [ RUN ] app\admin\controller\Login->verify[ /opt/Golden/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/public/error.php [ array (
+  0 => 'msg',
+  1 => 'url',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T10:55:12+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/login/0
+[运行时间：0.001707s] [吞吐率：585.80req/s] [内存消耗：236.11kb] [文件加载：49]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => '0',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/login/verify.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /opt/Golden/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/login/index.php [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T10:55:12+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/login/captcha.html
+[运行时间：0.003389s] [吞吐率：295.08req/s] [内存消耗：236.21kb] [文件加载：48]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'captcha',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/login/0',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'image/webp,*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->captcha[ /opt/Golden/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T10:55:21+08:00 ] 210.87.167.13 POST 129.28.123.113/admin/login/verify.html
+[运行时间：0.008100s] [吞吐率：123.46req/s] [内存消耗：418.84kb] [文件加载：63]
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'172.27.0.6' (using password: YES)[/opt/Golden/thinkphp/library/think/db/Connection.php:295]
+[ error ] SQLSTATE[HY000] [1045] Access denied for user 'root'@'172.27.0.6' (using password: YES)
+---------------------------------------------------------------
+[ 2019-07-17T10:55:22+08:00 ] 210.87.167.13 GET 129.28.123.113/public/system/frame/css/font-awesome.css?v=4.4.0
+[运行时间：0.001963s] [吞吐率：509.45req/s] [内存消耗：156.33kb] [文件加载：40]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'system',
+    2 => 'frame',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/login/verify.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.4.0',
+  'css' => 'font-awesome.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:00:09+08:00 ] 189.89.7.180 GET 129.28.123.113/
+[运行时间：0.002115s] [吞吐率：472.86req/s] [内存消耗：274.79kb] [文件加载：55]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => '',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'accept-language' => 'en-US',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:04:03+08:00 ] 210.87.167.13 GET 129.28.123.113/
+[运行时间：0.001914s] [吞吐率：522.46req/s] [内存消耗：276.30kb] [文件加载：55]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:04:03+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/login/index.html
+[运行时间：0.001763s] [吞吐率：567.18req/s] [内存消耗：235.82kb] [文件加载：49]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /opt/Golden/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/login/index.php [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:04:03+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/login/captcha.html
+[运行时间：0.004379s] [吞吐率：228.36req/s] [内存消耗：236.23kb] [文件加载：48]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'captcha',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/login/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'image/webp,*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->captcha[ /opt/Golden/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:04:11+08:00 ] 210.87.167.13 POST 129.28.123.113/admin/login/verify.html
+[运行时间：0.117408s] [吞吐率：8.52req/s] [内存消耗：432.53kb] [文件加载：63]
+[ error ] [2002]SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known[/opt/Golden/thinkphp/library/think/db/Connection.php:295]
+[ error ] SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known
+---------------------------------------------------------------
+[ 2019-07-17T11:04:11+08:00 ] 210.87.167.13 GET 129.28.123.113/public/system/frame/css/font-awesome.css?v=4.4.0
+[运行时间：0.001799s] [吞吐率：555.83req/s] [内存消耗：156.33kb] [文件加载：40]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'system',
+    2 => 'frame',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/login/verify.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.4.0',
+  'css' => 'font-awesome.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:05:05+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/login/verify.html
+[运行时间：0.001996s] [吞吐率：500.99req/s] [内存消耗：260.23kb] [文件加载：46]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->verify[ /opt/Golden/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/public/error.php [ array (
+  0 => 'msg',
+  1 => 'url',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:05:07+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/login/0
+[运行时间：0.001589s] [吞吐率：629.30req/s] [内存消耗：236.11kb] [文件加载：49]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => '0',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/login/verify.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /opt/Golden/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/login/index.php [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:05:07+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/login/captcha.html
+[运行时间：0.005588s] [吞吐率：178.95req/s] [内存消耗：236.21kb] [文件加载：48]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'captcha',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/login/0',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'image/webp,*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->captcha[ /opt/Golden/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:05:18+08:00 ] 210.87.167.13 POST 129.28.123.113/admin/login/verify.html
+[运行时间：0.038593s] [吞吐率：25.91req/s] [内存消耗：513.09kb] [文件加载：68]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/login/0',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'content-length' => '35',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+)
+[ info ] [ PARAM ] array (
+  'account' => 'admin',
+  'pwd' => 'admin',
+  'verify' => '9345',
+)
+[ info ] [ RUN ] app\admin\controller\Login->verify[ /opt/Golden/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @system_admin_login_after [ RunTime:0.018295s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:05:18+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/index/index.html
+[运行时间：0.058926s] [吞吐率：16.97req/s] [内存消耗：837.77kb] [文件加载：69]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'referer' => 'http://129.28.123.113/admin/login/0',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.000017s ]
+[ info ] [ RUN ] app\admin\controller\Index->index[ /opt/Golden/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/index/index.php [ array (
+  0 => '_admin',
+  1 => 'menuList',
+  2 => 'site_logo',
+  3 => 'role_name',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:05:19+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/index/main.html
+[运行时间：0.083605s] [吞吐率：11.96req/s] [内存消耗：891.93kb] [文件加载：73]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/index/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.000019s ]
+[ info ] [ RUN ] app\admin\controller\Index->main[ /opt/Golden/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/index/main.php [ array (
+  0 => '_admin',
+  1 => 'first_line',
+  2 => 'second_line',
+  3 => 'topData',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:05:21+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/index/jnotice.html
+[运行时间：0.037043s] [吞吐率：27.00req/s] [内存消耗：738.60kb] [文件加载：72]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/index/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.000020s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ /opt/Golden/application/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:05:25+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/index/orderchart.html?cycle=thirtyday
+[运行时间：0.035080s] [吞吐率：28.51req/s] [内存消耗：710.12kb] [文件加载：73]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'golden.eb_store_order.add_time' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by[/opt/Golden/thinkphp/library/think/db/Connection.php:385]
+[ error ] SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'golden.eb_store_order.add_time' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+---------------------------------------------------------------
+[ 2019-07-17T11:05:25+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/index/userchart.html
+[运行时间：0.061476s] [吞吐率：16.27req/s] [内存消耗：694.88kb] [文件加载：73]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'golden.eb_user.add_time' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by[/opt/Golden/thinkphp/library/think/db/Connection.php:385]
+[ error ] SQLSTATE[42000]: Syntax error or access violation: 1055 Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'golden.eb_user.add_time' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+---------------------------------------------------------------
+[ 2019-07-17T11:05:32+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/store.store_product/index/type/1.html
+[运行时间：0.054451s] [吞吐率：18.37req/s] [内存消耗：847.56kb] [文件加载：74]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'store.store_product',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/index/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.012363s ]
+[ info ] [ RUN ] app\admin\controller\store\StoreProduct->index[ /opt/Golden/application/admin/controller/store/StoreProduct.php ]
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/store/store_product/index.php [ array (
+  0 => '_admin',
+  1 => 'cate',
+  2 => 'type',
+  3 => 'onsale',
+  4 => 'forsale',
+  5 => 'warehouse',
+  6 => 'outofstock',
+  7 => 'policeforce',
+  8 => 'recycle',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:05:32+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/store.store_product/product_ist/type/1.html?page=1&limit=20
+[运行时间：0.092295s] [吞吐率：10.83req/s] [内存消耗：872.80kb] [文件加载：72]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'store.store_product',
+    2 => 'product_ist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/store.store_product/index/type/1.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+  'type' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.010249s ]
+[ info ] [ RUN ] app\admin\controller\store\StoreProduct->product_ist[ /opt/Golden/application/admin/controller/store/StoreProduct.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:05:33+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/store.store_category/index.html
+[运行时间：0.035357s] [吞吐率：28.28req/s] [内存消耗：730.31kb] [文件加载：71]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'store.store_category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/index/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.010466s ]
+[ info ] [ RUN ] app\admin\controller\store\StoreCategory->index[ /opt/Golden/application/admin/controller/store/StoreCategory.php ]
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/store/store_category/index.php [ array (
+  0 => '_admin',
+  1 => 'pid',
+  2 => 'cate',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:05:33+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/store.store_category/category_list/pid/0.html?page=1&limit=20
+[运行时间：0.032874s] [吞吐率：30.42req/s] [内存消耗：692.34kb] [文件加载：68]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'store.store_category',
+    2 => 'category_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/store.store_category/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+  'pid' => '0',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.010559s ]
+[ info ] [ RUN ] app\admin\controller\store\StoreCategory->category_list[ /opt/Golden/application/admin/controller/store/StoreCategory.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:05:35+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/order.store_order/index.html
+[运行时间：0.052713s] [吞吐率：18.97req/s] [内存消耗：788.80kb] [文件加载：71]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.store_order',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/index/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.010717s ]
+[ info ] [ RUN ] app\admin\controller\order\StoreOrder->index[ /opt/Golden/application/admin/controller/order/StoreOrder.php ]
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/order/store_order/index.php [ array (
+  0 => '_admin',
+  1 => 'year',
+  2 => 'real_name',
+  3 => 'orderCount',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:05:36+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/order.store_order/order_list.html?page=1&limit=20
+[运行时间：0.029085s] [吞吐率：34.38req/s] [内存消耗：698.23kb] [文件加载：68]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.store_order',
+    2 => 'order_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/order.store_order/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.009084s ]
+[ info ] [ RUN ] app\admin\controller\order\StoreOrder->order_list[ /opt/Golden/application/admin/controller/order/StoreOrder.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:05:36+08:00 ] 210.87.167.13 POST 129.28.123.113/admin/order.store_order/getBadge
+[运行时间：0.032235s] [吞吐率：31.02req/s] [内存消耗：697.65kb] [文件加载：67]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order.store_order',
+    2 => 'getBadge',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/order.store_order/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'content-length' => '38',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+  'status' => '',
+  'type' => '',
+  'real_name' => '',
+  'excel' => '0',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.010284s ]
+[ info ] [ RUN ] app\admin\controller\order\StoreOrder->getBadge[ /opt/Golden/application/admin/controller/order/StoreOrder.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:05:37+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/store.store_product_reply/index.html
+[运行时间：0.042186s] [吞吐率：23.70req/s] [内存消耗：807.27kb] [文件加载：74]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'store.store_product_reply',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/index/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.009741s ]
+[ info ] [ RUN ] app\admin\controller\store\StoreProductReply->index[ /opt/Golden/application/admin/controller/store/StoreProductReply.php ]
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/store/store_product_reply/index.php [ array (
+  0 => '_admin',
+  1 => 'where',
+  2 => 'is_layui',
+  3 => 'list',
+  4 => 'page',
+  5 => 'total',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:05:38+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/store.store_product_reply/get_product_imaes_list?page=1&title=&is_reply=&limit=10&producr_id=0&message_page=1
+[运行时间：0.026883s] [吞吐率：37.20req/s] [内存消耗：687.93kb] [文件加载：68]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'store.store_product_reply',
+    2 => 'get_product_imaes_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/store.store_product_reply/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'title' => '',
+  'is_reply' => '',
+  'limit' => '10',
+  'producr_id' => '0',
+  'message_page' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.010180s ]
+[ info ] [ RUN ] app\admin\controller\store\StoreProductReply->get_product_imaes_list[ /opt/Golden/application/admin/controller/store/StoreProductReply.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:05:38+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/store.store_product_reply/get_product_reply_list?page=1&title=&is_reply=&limit=10&producr_id=0&message_page=1
+[运行时间：0.040376s] [吞吐率：24.77req/s] [内存消耗：688.53kb] [文件加载：69]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'store.store_product_reply',
+    2 => 'get_product_reply_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/store.store_product_reply/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'title' => '',
+  'is_reply' => '',
+  'limit' => '10',
+  'producr_id' => '0',
+  'message_page' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.009785s ]
+[ info ] [ RUN ] app\admin\controller\store\StoreProductReply->get_product_reply_list[ /opt/Golden/application/admin/controller/store/StoreProductReply.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:05:40+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/user.user/index.html
+[运行时间：0.044116s] [吞吐率：22.67req/s] [内存消耗：743.33kb] [文件加载：72]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/index/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.010395s ]
+[ info ] [ RUN ] app\admin\controller\user\User->index[ /opt/Golden/application/admin/controller/user/User.php ]
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/user/user/index.php [ array (
+  0 => '_admin',
+  1 => 'count_user',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:05:41+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/user.user/get_user_list.html?page=1&limit=20
+[运行时间：0.027853s] [吞吐率：35.90req/s] [内存消耗：693.15kb] [文件加载：69]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.user',
+    2 => 'get_user_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/user.user/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.009260s ]
+[ info ] [ RUN ] app\admin\controller\user\User->get_user_list[ /opt/Golden/application/admin/controller/user/User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:05:42+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/user.user_notice/index.html
+[运行时间：0.034172s] [吞吐率：29.26req/s] [内存消耗：652.19kb] [文件加载：69]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.user_notice',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/index/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.012258s ]
+[ info ] [ RUN ] app\admin\controller\user\UserNotice->index[ /opt/Golden/application/admin/controller/user/UserNotice.php ]
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/user/user_notice/index.php [ array (
+  0 => '_admin',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:05:42+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/user.user_notice/index.html?page=1&limit=20
+[运行时间：0.032790s] [吞吐率：30.50req/s] [内存消耗：687.48kb] [文件加载：68]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.user_notice',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/user.user_notice/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.014235s ]
+[ info ] [ RUN ] app\admin\controller\user\UserNotice->index[ /opt/Golden/application/admin/controller/user/UserNotice.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:05:43+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/user.user_level/index.html
+[运行时间：0.032777s] [吞吐率：30.51req/s] [内存消耗：665.45kb] [文件加载：70]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.user_level',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/index/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.013101s ]
+[ info ] [ RUN ] app\admin\controller\user\UserLevel->index[ /opt/Golden/application/admin/controller/user/UserLevel.php ]
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/user/user_level/index.php [ array (
+  0 => '_admin',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:05:43+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/user.user_level/get_system_vip_list.html?page=1&limit=20
+[运行时间：0.026520s] [吞吐率：37.71req/s] [内存消耗：698.04kb] [文件加载：69]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.user_level',
+    2 => 'get_system_vip_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/user.user_level/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.008815s ]
+[ info ] [ RUN ] app\admin\controller\user\UserLevel->get_system_vip_list[ /opt/Golden/application/admin/controller/user/UserLevel.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:05:50+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/ump.store_coupon/index.html
+[运行时间：0.046169s] [吞吐率：21.66req/s] [内存消耗：790.20kb] [文件加载：74]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ump.store_coupon',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/index/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.010085s ]
+[ info ] [ RUN ] app\admin\controller\ump\StoreCoupon->index[ /opt/Golden/application/admin/controller/ump/StoreCoupon.php ]
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/ump/store_coupon/index.php [ array (
+  0 => '_admin',
+  1 => 'where',
+  2 => 'list',
+  3 => 'page',
+  4 => 'total',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:05:51+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/ump.store_coupon_issue/index.html
+[运行时间：0.034118s] [吞吐率：29.31req/s] [内存消耗：790.36kb] [文件加载：75]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ump.store_coupon_issue',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/index/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.008165s ]
+[ info ] [ RUN ] app\admin\controller\ump\StoreCouponIssue->index[ /opt/Golden/application/admin/controller/ump/StoreCouponIssue.php ]
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/ump/store_coupon_issue/index.php [ array (
+  0 => '_admin',
+  1 => 'list',
+  2 => 'page',
+  3 => 'total',
+  4 => 'where',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:05:52+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/ump.store_coupon_user/index.html
+[运行时间：0.038925s] [吞吐率：25.69req/s] [内存消耗：768.16kb] [文件加载：73]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ump.store_coupon_user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/index/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.011754s ]
+[ info ] [ RUN ] app\admin\controller\ump\StoreCouponUser->index[ /opt/Golden/application/admin/controller/ump/StoreCouponUser.php ]
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/ump/store_coupon_user/index.php [ array (
+  0 => '_admin',
+  1 => 'where',
+  2 => 'list',
+  3 => 'page',
+  4 => 'total',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:05:54+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/setting.system_config/index/type/3/tab_id/12.html
+[运行时间：0.042645s] [吞吐率：23.45req/s] [内存消耗：759.56kb] [文件加载：70]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'setting.system_config',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/index/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => '3',
+  'tab_id' => '12',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.010508s ]
+[ info ] [ RUN ] app\admin\controller\setting\SystemConfig->index[ /opt/Golden/application/admin/controller/setting/SystemConfig.php ]
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/setting/system_config/index.php [ array (
+  0 => '_admin',
+  1 => 'tab_id',
+  2 => 'config_tab',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:15:22+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/index/jnotice.html
+[运行时间：0.033584s] [吞吐率：29.78req/s] [内存消耗：737.35kb] [文件加载：72]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/index/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.000020s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ /opt/Golden/application/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:16:34+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/ump.store_coupon_user/index.html
+[运行时间：0.029080s] [吞吐率：34.39req/s] [内存消耗：668.20kb] [文件加载：71]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ump.store_coupon_user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/index/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.010215s ]
+[ info ] [ RUN ] app\admin\controller\ump\StoreCouponUser->index[ /opt/Golden/application/admin/controller/ump/StoreCouponUser.php ]
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/ump/store_coupon_user/index.php [ array (
+  0 => '_admin',
+  1 => 'where',
+  2 => 'list',
+  3 => 'page',
+  4 => 'total',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:16:35+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/setting.system_config/index/type/3/tab_id/12.html
+[运行时间：0.026612s] [吞吐率：37.58req/s] [内存消耗：674.80kb] [文件加载：68]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'setting.system_config',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/index/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => '3',
+  'tab_id' => '12',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.008217s ]
+[ info ] [ RUN ] app\admin\controller\setting\SystemConfig->index[ /opt/Golden/application/admin/controller/setting/SystemConfig.php ]
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/setting/system_config/index.php [ array (
+  0 => '_admin',
+  1 => 'tab_id',
+  2 => 'config_tab',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:16:56+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/store.store_product/create.html
+[运行时间：0.076427s] [吞吐率：13.08req/s] [内存消耗：921.46kb] [文件加载：106]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'store.store_product',
+    2 => 'create',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/index/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.009396s ]
+[ info ] [ RUN ] app\admin\controller\store\StoreProduct->create[ /opt/Golden/application/admin/controller/store/StoreProduct.php ]
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/public/form-builder.php [ array (
+  0 => '_admin',
+  1 => 'form',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:18:17+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/setting.system_group_data/index/gid/48.html
+[运行时间：0.040265s] [吞吐率：24.84req/s] [内存消耗：791.18kb] [文件加载：75]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'setting.system_group_data',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/index/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '48',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.008236s ]
+[ info ] [ RUN ] app\admin\controller\setting\SystemGroupData->index[ /opt/Golden/application/admin/controller/setting/SystemGroupData.php ]
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/setting/system_group_data/index.php [ array (
+  0 => '_admin',
+  1 => 'where',
+  2 => 'gid',
+  3 => 'fields',
+  4 => 'list',
+  5 => 'page',
+  6 => 'total',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:18:31+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/setting.system_group_data/index/gid/47.html
+[运行时间：0.030072s] [吞吐率：33.25req/s] [内存消耗：725.30kb] [文件加载：73]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'setting.system_group_data',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/index/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '47',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.009176s ]
+[ info ] [ RUN ] app\admin\controller\setting\SystemGroupData->index[ /opt/Golden/application/admin/controller/setting/SystemGroupData.php ]
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/setting/system_group_data/index.php [ array (
+  0 => '_admin',
+  1 => 'where',
+  2 => 'gid',
+  3 => 'fields',
+  4 => 'list',
+  5 => 'page',
+  6 => 'total',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:18:38+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/setting.system_group_data/index/gid/55.html
+[运行时间：0.039099s] [吞吐率：25.58req/s] [内存消耗：707.39kb] [文件加载：73]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'setting.system_group_data',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/index/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '55',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.016989s ]
+[ info ] [ RUN ] app\admin\controller\setting\SystemGroupData->index[ /opt/Golden/application/admin/controller/setting/SystemGroupData.php ]
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/setting/system_group_data/index.php [ array (
+  0 => '_admin',
+  1 => 'where',
+  2 => 'gid',
+  3 => 'fields',
+  4 => 'list',
+  5 => 'page',
+  6 => 'total',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:18:42+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/setting.system_group_data/index/gid/53.html
+[运行时间：0.032467s] [吞吐率：30.80req/s] [内存消耗：702.65kb] [文件加载：73]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'setting.system_group_data',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/index/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '53',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.010164s ]
+[ info ] [ RUN ] app\admin\controller\setting\SystemGroupData->index[ /opt/Golden/application/admin/controller/setting/SystemGroupData.php ]
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/setting/system_group_data/index.php [ array (
+  0 => '_admin',
+  1 => 'where',
+  2 => 'gid',
+  3 => 'fields',
+  4 => 'list',
+  5 => 'page',
+  6 => 'total',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:18:48+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/setting.system_group_data/index/gid/54.html
+[运行时间：0.033179s] [吞吐率：30.14req/s] [内存消耗：718.91kb] [文件加载：73]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'setting.system_group_data',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/index/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '54',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.010954s ]
+[ info ] [ RUN ] app\admin\controller\setting\SystemGroupData->index[ /opt/Golden/application/admin/controller/setting/SystemGroupData.php ]
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/setting/system_group_data/index.php [ array (
+  0 => '_admin',
+  1 => 'where',
+  2 => 'gid',
+  3 => 'fields',
+  4 => 'list',
+  5 => 'page',
+  6 => 'total',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:18:52+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/setting.system_group_data/index/gid/50.html
+[运行时间：0.032081s] [吞吐率：31.17req/s] [内存消耗：698.37kb] [文件加载：73]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'setting.system_group_data',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/index/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '50',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.010323s ]
+[ info ] [ RUN ] app\admin\controller\setting\SystemGroupData->index[ /opt/Golden/application/admin/controller/setting/SystemGroupData.php ]
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/setting/system_group_data/index.php [ array (
+  0 => '_admin',
+  1 => 'where',
+  2 => 'gid',
+  3 => 'fields',
+  4 => 'list',
+  5 => 'page',
+  6 => 'total',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:18:53+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/setting.system_group_data/index/gid/57.html
+[运行时间：0.034374s] [吞吐率：29.09req/s] [内存消耗：689.16kb] [文件加载：73]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'setting.system_group_data',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/index/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '57',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.011305s ]
+[ info ] [ RUN ] app\admin\controller\setting\SystemGroupData->index[ /opt/Golden/application/admin/controller/setting/SystemGroupData.php ]
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/setting/system_group_data/index.php [ array (
+  0 => '_admin',
+  1 => 'where',
+  2 => 'gid',
+  3 => 'fields',
+  4 => 'list',
+  5 => 'page',
+  6 => 'total',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:18:56+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/setting.system_group_data/index/gid/58.html
+[运行时间：0.030614s] [吞吐率：32.66req/s] [内存消耗：690.30kb] [文件加载：73]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'setting.system_group_data',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/index/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '58',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.008974s ]
+[ info ] [ RUN ] app\admin\controller\setting\SystemGroupData->index[ /opt/Golden/application/admin/controller/setting/SystemGroupData.php ]
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/setting/system_group_data/index.php [ array (
+  0 => '_admin',
+  1 => 'where',
+  2 => 'gid',
+  3 => 'fields',
+  4 => 'list',
+  5 => 'page',
+  6 => 'total',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:18:57+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/setting.system_group_data/index/gid/59.html
+[运行时间：0.029041s] [吞吐率：34.43req/s] [内存消耗：690.30kb] [文件加载：73]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'setting.system_group_data',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/index/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '59',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.010359s ]
+[ info ] [ RUN ] app\admin\controller\setting\SystemGroupData->index[ /opt/Golden/application/admin/controller/setting/SystemGroupData.php ]
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/setting/system_group_data/index.php [ array (
+  0 => '_admin',
+  1 => 'where',
+  2 => 'gid',
+  3 => 'fields',
+  4 => 'list',
+  5 => 'page',
+  6 => 'total',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:18:58+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/setting.system_group_data/index/gid/60.html
+[运行时间：0.033614s] [吞吐率：29.75req/s] [内存消耗：695.89kb] [文件加载：73]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'setting.system_group_data',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/index/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '60',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.013172s ]
+[ info ] [ RUN ] app\admin\controller\setting\SystemGroupData->index[ /opt/Golden/application/admin/controller/setting/SystemGroupData.php ]
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/setting/system_group_data/index.php [ array (
+  0 => '_admin',
+  1 => 'where',
+  2 => 'gid',
+  3 => 'fields',
+  4 => 'list',
+  5 => 'page',
+  6 => 'total',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:18:59+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/setting.system_config/index/type/2/tab_id/7.html
+[运行时间：0.036186s] [吞吐率：27.64req/s] [内存消耗：708.82kb] [文件加载：69]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'setting.system_config',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/index/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => '2',
+  'tab_id' => '7',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.010257s ]
+[ info ] [ RUN ] app\admin\controller\setting\SystemConfig->index[ /opt/Golden/application/admin/controller/setting/SystemConfig.php ]
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/setting/system_config/index.php [ array (
+  0 => '_admin',
+  1 => 'tab_id',
+  2 => 'config_tab',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:18:59+08:00 ] 210.87.167.13 GET 129.28.123.113/public/uploads/config/image/5cb0448eed9cb.png
+[运行时间：0.001938s] [吞吐率：516.03req/s] [内存消耗：156.45kb] [文件加载：40]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => 'config',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/setting.system_config/index/type/2/tab_id/7.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'image/webp,*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'image' => '5cb0448eed9cb.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:19:05+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/routine.routine_template/index.html
+[运行时间：0.051706s] [吞吐率：19.34req/s] [内存消耗：805.20kb] [文件加载：74]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'routine.routine_template',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/index/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.010047s ]
+[ info ] [ RUN ] app\admin\controller\routine\RoutineTemplate->index[ /opt/Golden/application/admin/controller/routine/RoutineTemplate.php ]
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/routine/routine_template/index.php [ array (
+  0 => '_admin',
+  1 => 'where',
+  2 => 'list',
+  3 => 'page',
+  4 => 'total',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:22:04+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/setting.system_config/index/type/1/tab_id/2.html
+[运行时间：0.037913s] [吞吐率：26.38req/s] [内存消耗：727.41kb] [文件加载：69]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'setting.system_config',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/index/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => '1',
+  'tab_id' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.009974s ]
+[ info ] [ RUN ] app\admin\controller\setting\SystemConfig->index[ /opt/Golden/application/admin/controller/setting/SystemConfig.php ]
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/setting/system_config/index.php [ array (
+  0 => '_admin',
+  1 => 'tab_id',
+  2 => 'config_tab',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:22:04+08:00 ] 210.87.167.13 GET 129.28.123.113/public/uploads/config/image/5c3d8f3405c48.jpg
+[运行时间：0.003021s] [吞吐率：331.02req/s] [内存消耗：156.45kb] [文件加载：40]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => 'config',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/setting.system_config/index/type/1/tab_id/2.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'image/webp,*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'image' => '5c3d8f3405c48.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:22:08+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/wechat.menus/index.html
+[运行时间：0.036905s] [吞吐率：27.10req/s] [内存消耗：715.01kb] [文件加载：69]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'wechat.menus',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/index/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.010350s ]
+[ info ] [ RUN ] app\admin\controller\wechat\Menus->index[ /opt/Golden/application/admin/controller/wechat/Menus.php ]
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/wechat/menus/index.php [ array (
+  0 => '_admin',
+  1 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:22:16+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/wechat.wechat_template/index.html
+[运行时间：0.046224s] [吞吐率：21.63req/s] [内存消耗：810.59kb] [文件加载：77]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'wechat.wechat_template',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/index/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.008204s ]
+[ info ] [ RUN ] app\admin\controller\wechat\WechatTemplate->index[ /opt/Golden/application/admin/controller/wechat/WechatTemplate.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/wechat/wechat_template/index.php [ array (
+  0 => '_admin',
+  1 => 'where',
+  2 => 'list',
+  3 => 'page',
+  4 => 'total',
+  5 => 'industry',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:22:18+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/setting.system_config/index/type/1/tab_id/4.html
+[运行时间：0.031618s] [吞吐率：31.63req/s] [内存消耗：712.73kb] [文件加载：69]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'setting.system_config',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/index/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'type' => '1',
+  'tab_id' => '4',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.009611s ]
+[ info ] [ RUN ] app\admin\controller\setting\SystemConfig->index[ /opt/Golden/application/admin/controller/setting/SystemConfig.php ]
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/setting/system_config/index.php [ array (
+  0 => '_admin',
+  1 => 'tab_id',
+  2 => 'config_tab',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:25:22+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/index/jnotice.html
+[运行时间：0.032280s] [吞吐率：30.98req/s] [内存消耗：737.35kb] [文件加载：72]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/index/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.000014s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ /opt/Golden/application/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T11:35:22+08:00 ] 210.87.167.13 GET 129.28.123.113/admin/index/jnotice.html
+[运行时间：0.038517s] [吞吐率：25.96req/s] [内存消耗：737.35kb] [文件加载：72]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=trn16ari7fdkt6f3r8edbqki9m',
+  'referer' => 'http://129.28.123.113/admin/index/index.html',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\system\SystemBehavior @admin_visit [ RunTime:0.000020s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ /opt/Golden/application/admin/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T12:04:35+08:00 ] 67.202.202.202 GET 129.28.123.113/manager/html
+[运行时间：0.001664s] [吞吐率：600.99req/s] [内存消耗：153.58kb] [文件加载：40]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'manager',
+    1 => 'html',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-us',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 Gecko/20100101',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T12:07:16+08:00 ] 170.0.230.33 GET 129.28.123.113:80/
+[运行时间：0.002195s] [吞吐率：455.56req/s] [内存消耗：274.30kb] [文件加载：55]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7',
+  'host' => '129.28.123.113:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T12:19:51+08:00 ] 149.90.31.184 GET 129.28.123.113/
+[运行时间：0.002097s] [吞吐率：476.90req/s] [内存消耗：273.63kb] [文件加载：55]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T13:58:29+08:00 ] 138.204.56.2 GET 129.28.123.113:80/
+[运行时间：0.001784s] [吞吐率：560.51req/s] [内存消耗：274.30kb] [文件加载：55]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+  'host' => '129.28.123.113:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T15:54:08+08:00 ] 187.188.33.82 GET 129.28.123.113:80/
+[运行时间：0.001698s] [吞吐率：589.00req/s] [内存消耗：274.30kb] [文件加载：55]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '129.28.123.113:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T18:49:57+08:00 ] 185.252.93.233 GET 129.28.123.113:80/
+[运行时间：0.001986s] [吞吐率：503.58req/s] [内存消耗：274.30kb] [文件加载：55]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '129.28.123.113:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T19:16:35+08:00 ] 196.52.43.64 GET /
+[运行时间：0.004497s] [吞吐率：222.37req/s] [内存消耗：274.13kb] [文件加载：55]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3602.2 Safari/537.36',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T20:18:48+08:00 ] 177.124.130.42 GET 129.28.123.113/index.php
+[运行时间：0.001608s] [吞吐率：621.84req/s] [内存消耗：274.52kb] [文件加载：55]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T20:18:49+08:00 ] 177.124.130.42 GET 129.28.123.113/index.php/admin/login/index.html
+[运行时间：0.001801s] [吞吐率：555.24req/s] [内存消耗：153.68kb] [文件加载：40]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index.php',
+    1 => 'admin',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'referer' => 'http://129.28.123.113/index.php',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)',
+  'host' => '129.28.123.113',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T20:18:49+08:00 ] 177.124.130.42 GET 129.28.123.113:80/
+[运行时间：0.001858s] [吞吐率：538.21req/s] [内存消耗：274.52kb] [文件加载：55]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)',
+  'host' => '129.28.123.113:80',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T20:18:50+08:00 ] 177.124.130.42 GET 129.28.123.113:80/admin/login/index.html
+[运行时间：0.001283s] [吞吐率：779.47req/s] [内存消耗：233.27kb] [文件加载：49]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'referer' => 'http://129.28.123.113:80',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6)',
+  'host' => '129.28.123.113:80',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /opt/Golden/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/login/index.php [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T20:55:01+08:00 ] 101.251.242.238 GET 129.28.123.113:80/
+[运行时间：0.002177s] [吞吐率：459.35req/s] [内存消耗：275.12kb] [文件加载：55]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'application/json, text/plain, */*',
+  'accept-charset' => 'GBK,utf-8;q=0.7,*;q=0.3',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'host' => '129.28.123.113:80',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T22:51:03+08:00 ] 60.191.38.78 GET 129.28.123.113:80/
+[运行时间：0.001719s] [吞吐率：581.73req/s] [内存消耗：274.39kb] [文件加载：55]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0',
+  'host' => '129.28.123.113:80',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T22:51:03+08:00 ] 60.191.38.78 GET 129.28.123.113:80/admin/login/index.html
+[运行时间：0.001642s] [吞吐率：609.02req/s] [内存消耗：232.93kb] [文件加载：49]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:47.0) Gecko/20100101 Firefox/47.0',
+  'host' => '129.28.123.113:80',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /opt/Golden/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/login/index.php [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T22:53:08+08:00 ] 150.129.171.123 GET 129.28.123.113:80/
+[运行时间：0.002139s] [吞吐率：467.54req/s] [内存消耗：274.30kb] [文件加载：55]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
+  'host' => '129.28.123.113:80',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T23:00:24+08:00 ] 60.191.52.254 HEAD 112.124.42.80:63435/
+[运行时间：0.001527s] [吞吐率：654.85req/s] [内存消耗：274.57kb] [文件加载：55]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'proxy-connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => '112.124.42.80:63435',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+  'accept-encoding' => 'gzip',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-07-17T23:00:24+08:00 ] 60.191.52.254 GET 112.124.42.80:63435/admin/login/index.html
+[运行时间：0.001504s] [吞吐率：664.92req/s] [内存消耗：233.82kb] [文件加载：49]
+[ info ] [ LANG ] /opt/Golden/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'proxy-connection' => 'keep-alive',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => '112.124.42.80:63435',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+  'accept-encoding' => 'gzip',
+  'cookie' => 'PHPSESSID=h7tn5pte97b2pqo3kmmq37tptt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /opt/Golden/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /opt/Golden/application/admin/view/login/index.php [ array (
+) ]
+[ info ] [ LOG ] INIT File

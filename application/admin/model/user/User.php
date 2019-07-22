@@ -434,6 +434,7 @@ class User extends ModelBasic
         $user_count=self::setWherePage(self::getModelTime($where,self::alias('a')->join('__STORE_ORDER__ r','r.uid=a.uid'),'a.add_time'),$where,['is_promoter'])
             ->where('r.paid',1)->count('a.uid');
         $shop_xdata=['多次购买数量占比','无购买数量占比'];
+        $fenbu_data=[];
         $shop_data=[];
         $count >0 && $shop_data=[
             [
